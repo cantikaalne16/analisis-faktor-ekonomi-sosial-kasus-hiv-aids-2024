@@ -18,58 +18,102 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 
 ### 3. Struktur Folder:
 📂 project-data-wrangling-hiv-aids-2024
+<br>
 │
+<br>
 |--- 📁 data raw
+<br>
 |   |-- Profil Kesehatan Indonesia 2024.pdf
+<br>
 |   |-- Profile Kemiskinan di Indonesia.pdf
+<br>
 |   |-- Rata Rata Lama Sekolah 2024.csv
-|   |-- Tingkat Pengangguran 2024.Ink
+<br>
+|   |-- Tingkat Pengangguran 2024.csv
+<br>
 |   |-- scrape_aids_raw.csv
+<br>
 |   |-- scrape_hiv_raw.csv
+<br>
 |   |__ scrape_kemiskinan_raw.csv
+<br>
 │
+<br>
 |--- 📁 data clean
+<br>
 │   |-- data_hiv_clean.csv
+<br>
 │   |-- data_aids_clean.csv
+<br>
 │   |-- data_kemiskinan_clean.csv
+<br>
 │   |-- data_pengangguran_clean.csv
+<br>
 │   |__ data_lama_sekolah_clean.csv
+<br>
 │
+<br>
 |--- 📁 data final
+<br>
 │   |__ DATA FINAL.csv
+<br>
 │
+<br>
 |--- 📁 dokumentasi pipeline
+<br>
 │   |__ pipeline.png
+<br>
 │
+<br>
 |--- 📁 laporan & ppt
+<br>
 |   |__ LAPORAN KELOMPOK 26.pdf
+<br>
 |   |__ PPT KELOMPOK 26.pptx
+<br>
 │
+<br>
 |--- 📁 source code python
+<br>
 |   |__ SOURCE CODE_KELOMPOK 26.ipynb
+<br>
 │   
+<br>
 │--- 📁 visualisasi
+<br>
 |   |-- boxplot_sosialekonomi_hivaids.png
+<br>
 |   |-- barplot_rasio_hivaids.png
+<br>
 |   |-- heatmap_sosialekonomi_hivaids.png
+<br>
 |   |__ scatterplot_sosialekonomi_hivaids.png
+<br>
 |
+<br>
 |___ README.md
 
 ### 4. Pipeline Wrangling:
+<br>
 Berikut tahapan lengkapnya sesuai dengan kode:
+<br>
 ##### **4.1 Pengambilan Data**
 a. Scraping Kasus HIV dari PDF
     Menggunakan tabula-py pada halaman 472 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_hiv_raw.csv" pada folder "data clean".
+<br>
 b. Scraping Kasus AIDS dari PDF
     Menggunakan tabula-py pada halaman 475 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_aids_raw.csv" pada folder "data clean".
+<br>
 c. Scraping Data Kemiskinan dari PDF
     Menggunakan pdfplumber pada halaman 9 di dokumen Profile Kemiskinan di Indonesia.pdf. Data diekstraksi ke CSV "scrape_kemiskinan_raw.csv" pada folder "data clean".
+<br>
 d. Load Data Indeks Tingkat Pengangguran Terbuka (TPT) dan Rata-rata Lama Sekolah, tersimpan pada folder "data clean".
 
 ##### **4.2 Data Cleaning**
 Cleaning mencakup:
+<br>
 - Menghapus baris header ganda
+<br>
 - Filter data yang relevan 
 - Menghapus titik pada angka seperti "1.234" menjadi "1234"
 - Uppercase seluruh nama provinsi
