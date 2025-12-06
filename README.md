@@ -171,7 +171,7 @@ g. Visualisasi heatmap korelasi
 <br>
 h. Visualisasi scatter plot
 <br>
-    Visualisasi hubungan antar variabel: 
+    Visualisasi hubungan antar variabel:
 - Jumlah penduduk miskin vs jumlah kasus HIV
 - Indeks TPT vs jumlah kasus HIV
 - Rata rata lama sekolah vs jumlah kasus HIV
@@ -183,7 +183,7 @@ h. Visualisasi scatter plot
 <br>
 i. Peringkat faktor sosial ekonomi
 <br>
-    Menyusun daftar provinsi berdasarkan: 
+    Menyusun daftar provinsi berdasarkan:
 - Provinsi dengan jumlah penduduk miskin terbanyak
 - Provinsi indeks TPT tertinggi
 - Provinsi dengan rata rata lama sekolah terendah
