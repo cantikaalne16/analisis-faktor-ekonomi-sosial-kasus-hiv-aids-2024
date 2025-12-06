@@ -96,7 +96,7 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 ### **4. Pipeline Wrangling:**
 Berikut tahapan lengkapnya sesuai dengan kode:
 <br>
-#### 4.1 Pengambilan Data
+### 4.1 Pengambilan Data
 a. Scraping Kasus HIV dari PDF
     Menggunakan tabula-py pada halaman 472 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_hiv_raw.csv" pada folder "data clean".
 <br>
@@ -111,7 +111,7 @@ c. Scraping Data Kemiskinan dari PDF
 <br>
 d. Load Data Indeks Tingkat Pengangguran Terbuka (TPT) dan Rata-rata Lama Sekolah, tersimpan pada folder "data clean".
 
-##### **4.2 Data Cleaning**
+#### 4.2 Data Cleaning
 Cleaning mencakup:
 <br>
 - Menghapus baris header ganda
@@ -132,10 +132,10 @@ Cleaning mencakup:
   <br>
       |-- data_lama_sekolah_clean.csv
   
-##### **4.3 Integrasi**
+#### 4.3 Integrasi
 Data cleaning HIV, AIDS, Kemiskinan, Pengangguran, dan Rata-Rata Lama Sekolah digabung dengan cara merge menggunakan provinsi sebagai common key.
 
-##### **4.4 Exploratory Data Analysis (EDA)**
+#### 4.4 Exploratory Data Analysis (EDA)
 a. Cek missing value
 <br>
 <br>
@@ -164,7 +164,6 @@ g. Visualisasi heatmap korelasi
 - Rata-rata lama sekolah
 - Jumlah Kasus HIV
 - Jumlah Kasus AIDS
-<br>
     Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "heatmap_sosialekonomi_hivaids.png".
 <br>
 <br>
@@ -177,7 +176,6 @@ h. Visualisasi scatter plot
 - Jumlah penduduk miskin vs jumlah kasus AIDS
 - Indeks TPT vs jumlah kasus AIDS
 - Rata rata lama sekolah vs jumlah kasus AIDS
-<br>
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
 <br>
