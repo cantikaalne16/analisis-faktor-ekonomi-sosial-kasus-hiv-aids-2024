@@ -94,7 +94,6 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 |___ README.md
 
 ### 4. Pipeline Wrangling:
-<br>
 Berikut tahapan lengkapnya sesuai dengan kode:
 <br>
 ##### **4.1 Pengambilan Data**
@@ -114,15 +113,24 @@ Cleaning mencakup:
 <br>
 - Menghapus baris header ganda
 <br>
-- Filter data yang relevan 
+- Filter data yang relevan
+<br>
 - Menghapus titik pada angka seperti "1.234" menjadi "1234"
+<br>
 - Uppercase seluruh nama provinsi
+<br>
 - File output setelah cleaning disimpan dalam folder data clean:
+<br>
   |--- 📁 data clean
+  <br>
       |-- data_hiv_clean.csv
+  <br>
       |-- data_aids_clean.csv
+  <br>
       |-- data_kemiskinan_clean.csv
+  <br>
       |-- data_pengangguran_clean.csv
+  <br>
       |-- data_lama_sekolah_clean.csv
   
 ##### **4.3 Integrasi**
@@ -130,36 +138,47 @@ Data cleaning HIV, AIDS, Kemiskinan, Pengangguran, dan Rata-Rata Lama Sekolah di
 
 ##### **4.4 Exploratory Data Analysis (EDA)**
 a. Cek missing value
+<br>
 b. Cek data duplicate
+<br>
 c. Cek tipe data
+<br>
 d. Cek statistik deskriptif
+<br>
 e. Deteksi outlier
     Menggunakan boxplot untuk mengidentifikasi provinsi yang memiliki nilai ekstrem pada variabel sosial ekonomi dan jumlah kasus HIV/AIDS. Menyimpan boxplot di folder "visualisasi" nama file "boxplot_sosialekonomi_hivaids.png"
+<br>
 f. Menghitung rasio kasus HIV & AIDS
     Membuat variabel baru berupa rasio Kasus HIV / Kasus AIDS untuk melihat proporsi penyebaran di setiap provinsi. Membuat "visualisasi" bar plot top 10 provinsi dengan rasio tertinggi ke terendah dan disimpan di folder visualisasi nama file "barplot_rasio_hivaids.png"
+<br>
 g. Visualisasi heatmap korelasi
     Menghasilkan heatmap antar variabel sosial-ekonomi untuk mengidentifikasi hubungan awal antara:
-        - Jumlah penduduk miskin
-        - Indeks TPT
-        - Rata-rata lama sekolah
-        - Jumlah Kasus HIV
-        - Jumlah Kasus AIDS
+- Jumlah penduduk miskin
+- Indeks TPT
+- Rata-rata lama sekolah
+- Jumlah Kasus HIV
+- Jumlah Kasus AIDS
+<br>
     Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "heatmap_sosialekonomi_hivaids.png".
+<br>
 h. Visualisasi scatter plot
+<br>
     Visualisasi hubungan antar variabel: 
-        - Jumlah penduduk miskin vs jumlah kasus HIV
-        - Indeks TPT vs jumlah kasus HIV
-        - Rata rata lama sekolah vs jumlah kasus HIV
-        - Jumlah penduduk miskin vs jumlah kasus AIDS
-        - Indeks TPT vs jumlah kasus AIDS
-        - Rata rata lama sekolah vs jumlah kasus AIDS
-    Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
+- Jumlah penduduk miskin vs jumlah kasus HIV
+- Indeks TPT vs jumlah kasus HIV
+- Rata rata lama sekolah vs jumlah kasus HIV
+- Jumlah penduduk miskin vs jumlah kasus AIDS
+- Indeks TPT vs jumlah kasus AIDS
+- Rata rata lama sekolah vs jumlah kasus AIDS
+<br>
+  Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
+<br>
 i. Peringkat faktor sosial ekonomi
     Menyusun daftar provinsi berdasarkan: 
-        - Provinsi dengan jumlah penduduk miskin terbanyak
-        - Provinsi indeks TPT tertinggi
-        - Provinsi dengan rata rata lama sekolah terendah
-        - Provinsi dengan rasio HIV & AIDS tertinggi
+- Provinsi dengan jumlah penduduk miskin terbanyak
+- Provinsi indeks TPT tertinggi
+- Provinsi dengan rata rata lama sekolah terendah
+- Provinsi dengan rasio HIV & AIDS tertinggi
 
 #### Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.
 
