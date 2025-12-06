@@ -118,6 +118,7 @@ Cleaning mencakup:
 - Menghapus titik pada angka seperti "1.234" menjadi "1234"
 - Uppercase seluruh nama provinsi
 - File output setelah cleaning disimpan dalam folder data clean:
+<br>
   |--- 📁 data clean
   <br>
       |-- data_hiv_clean.csv
@@ -162,6 +163,7 @@ g. Visualisasi heatmap korelasi
 - Rata-rata lama sekolah
 - Jumlah Kasus HIV
 - Jumlah Kasus AIDS
+<br>
     Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "heatmap_sosialekonomi_hivaids.png".
 <br>
 <br>
@@ -174,6 +176,7 @@ h. Visualisasi scatter plot
 - Jumlah penduduk miskin vs jumlah kasus AIDS
 - Indeks TPT vs jumlah kasus AIDS
 - Rata rata lama sekolah vs jumlah kasus AIDS
+<br>
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
 <br>
@@ -184,7 +187,8 @@ i. Peringkat faktor sosial ekonomi
 - Provinsi indeks TPT tertinggi
 - Provinsi dengan rata rata lama sekolah terendah
 - Provinsi dengan rasio HIV & AIDS tertinggi
-<br>   
+<br>
+<br>
 
 ### **Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.**
 
