@@ -9,7 +9,7 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 - Mengekstrak tabel PDF dengan pdfplumber & Tabula-py
 - Menggabungkan dataset sosial-ekonomi dari berbagai sumber:
     1. Data jumlah kasus HIV & AIDS di Indonesia tahun 2024 >> https://kemkes.go.id/id/profil-kesehatan-indonesia-2024
-    2. Data jumlah penduduk miskin di Indonesia tahun 2024 >> https://www.bps.go.id/id/pressrelease/2025/01/15/2401/persentase-penduduk-miskin-september-2024-turun-menjadi-8-57-persen-.html
+    2. Data jumlah penduduk miskin (ribu) di Indonesia tahun 2024 >> https://www.bps.go.id/id/pressrelease/2025/01/15/2401/persentase-penduduk-miskin-september-2024-turun-menjadi-8-57-persen-.html
     3. Data indeks tingkat pengangguran terbuka (%) di Indonesia tahun 2024 >> https://opendata.jabarprov.go.id/id/dataset/tingkat-pengangguran-terbuka-berdasarkan-provinsi--di-indonesia 
     4. Data rata-rata lama sekolah (Tahun) di Indonesia tahun 2024 >> https://www.bps.go.id/id/statistics-table/2/NDE1IzI=/-metode-baru--rata-rata-lama-sekolah--tahun-.html
 - Melakukan data cleaning dan standarisasi kolom.
