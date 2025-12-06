@@ -96,7 +96,7 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 ### **4. Pipeline Wrangling:**
 Berikut tahapan lengkapnya sesuai dengan kode:
 <br>
-### 4.1 Pengambilan Data
+#### 4.1 Pengambilan Data
 a. Scraping Kasus HIV dari PDF
     Menggunakan tabula-py pada halaman 472 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_hiv_raw.csv" pada folder "data clean".
 <br>
@@ -113,13 +113,11 @@ d. Load Data Indeks Tingkat Pengangguran Terbuka (TPT) dan Rata-rata Lama Sekola
 
 #### 4.2 Data Cleaning
 Cleaning mencakup:
-<br>
 - Menghapus baris header ganda
 - Filter data yang relevan
 - Menghapus titik pada angka seperti "1.234" menjadi "1234"
 - Uppercase seluruh nama provinsi
 - File output setelah cleaning disimpan dalam folder data clean:
-<br>
   |--- 📁 data clean
   <br>
       |-- data_hiv_clean.csv
@@ -187,8 +185,8 @@ i. Peringkat faktor sosial ekonomi
 - Provinsi dengan rata rata lama sekolah terendah
 - Provinsi dengan rasio HIV & AIDS tertinggi
 
-#### Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.
+### Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.
 
-#### Disusun Oleh:
+### Disusun Oleh:
 - #### Adisti Eka Nabila (24031554119)
 - #### Cantika Latifatul Nur Ella (24031554023)
