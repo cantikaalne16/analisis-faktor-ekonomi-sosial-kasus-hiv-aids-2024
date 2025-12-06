@@ -178,7 +178,6 @@ h. Visualisasi scatter plot
 - Jumlah penduduk miskin vs jumlah kasus AIDS
 - Indeks TPT vs jumlah kasus AIDS
 - Rata rata lama sekolah vs jumlah kasus AIDS
-
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
 <br>
