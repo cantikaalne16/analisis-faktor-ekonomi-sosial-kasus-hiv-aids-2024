@@ -148,10 +148,12 @@ d. Cek statistik deskriptif
 <br>
 <br>
 e. Deteksi outlier
+<br>
     Menggunakan boxplot untuk mengidentifikasi provinsi yang memiliki nilai ekstrem pada variabel sosial ekonomi dan jumlah kasus HIV/AIDS. Menyimpan boxplot di folder "visualisasi" nama file "boxplot_sosialekonomi_hivaids.png"
 <br>
 <br>
 f. Menghitung rasio kasus HIV & AIDS
+<br>
     Membuat variabel baru berupa rasio Kasus HIV / Kasus AIDS untuk melihat proporsi penyebaran di setiap provinsi. Membuat "visualisasi" bar plot top 10 provinsi dengan rasio tertinggi ke terendah dan disimpan di folder visualisasi nama file "barplot_rasio_hivaids.png"
 <br>
 <br>
@@ -176,7 +178,7 @@ h. Visualisasi scatter plot
 - Jumlah penduduk miskin vs jumlah kasus AIDS
 - Indeks TPT vs jumlah kasus AIDS
 - Rata rata lama sekolah vs jumlah kasus AIDS
-<br>
+
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
 <br>
