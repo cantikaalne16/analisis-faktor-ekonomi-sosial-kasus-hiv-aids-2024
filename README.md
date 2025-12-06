@@ -176,7 +176,6 @@ h. Visualisasi scatter plot
 - Rata rata lama sekolah vs jumlah kasus AIDS
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
-<br>
 i. Peringkat faktor sosial ekonomi
 <br>
     Menyusun daftar provinsi berdasarkan: 
@@ -184,8 +183,9 @@ i. Peringkat faktor sosial ekonomi
 - Provinsi indeks TPT tertinggi
 - Provinsi dengan rata rata lama sekolah terendah
 - Provinsi dengan rasio HIV & AIDS tertinggi
+<br>   
 
-### Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.
+### **Terima kasih kepada dosen pengampu Bu Ulfa Siti Nuraini, S.Stat., M.Stat. atas bimbingannya selama perkuliahan🙏.**
 
 ### Disusun Oleh:
 - #### Adisti Eka Nabila (24031554119)
