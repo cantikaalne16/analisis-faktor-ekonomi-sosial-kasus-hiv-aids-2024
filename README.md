@@ -1,10 +1,10 @@
 # Analisis Faktor Ekonomi Sosial Kasus HIV & AIDS 2024
 ## Project Akhir Data Wrangling Semester Gasal 2025/2026 S1 Sains Data Universitas Negeri Surabaya
 
-### 1. Deskripsi Project:
+### **1. Deskripsi Project:**
 Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan CSV) yang berkaitan dengan kasus HIV/AIDS serta faktor sosial ekonomi di Indonesia tahun 2024. Proses meliputi scraping PDF, data cleaning, integrasi dataset, dan eksplorasi sederhana.
 
-### 2. Fitur:
+### **2. Fitur:**
 - Melakukan scraping data HIV/AIDS dari file PDF menggunakan PyMuPDF.
 - Mengekstrak tabel PDF dengan pdfplumber & Tabula-py
 - Menggabungkan dataset sosial-ekonomi dari berbagai sumber:
@@ -16,7 +16,7 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 - Pembuatan variabel Rasio HIV/AIDS.
 - Eksplorasi data (EDA) dan visualisasi.
 
-### 3. Struktur Folder:
+### **3. Struktur Folder:**
 📂 project-data-wrangling-hiv-aids-2024
 <br>
 │
@@ -93,18 +93,21 @@ Project ini melakukan proses data wrangling terhadap beberapa dataset (PDF dan C
 <br>
 |___ README.md
 
-### 4. Pipeline Wrangling:
+### **4. Pipeline Wrangling:**
 Berikut tahapan lengkapnya sesuai dengan kode:
 <br>
-##### **4.1 Pengambilan Data**
+#### 4.1 Pengambilan Data
 a. Scraping Kasus HIV dari PDF
     Menggunakan tabula-py pada halaman 472 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_hiv_raw.csv" pada folder "data clean".
+<br>
 <br>
 b. Scraping Kasus AIDS dari PDF
     Menggunakan tabula-py pada halaman 475 di dokumen Profil Kesehatan Indonesia 2024. Data diekstraksi ke CSV "scrape_aids_raw.csv" pada folder "data clean".
 <br>
+<br>
 c. Scraping Data Kemiskinan dari PDF
     Menggunakan pdfplumber pada halaman 9 di dokumen Profile Kemiskinan di Indonesia.pdf. Data diekstraksi ke CSV "scrape_kemiskinan_raw.csv" pada folder "data clean".
+<br>
 <br>
 d. Load Data Indeks Tingkat Pengangguran Terbuka (TPT) dan Rata-rata Lama Sekolah, tersimpan pada folder "data clean".
 
@@ -112,13 +115,9 @@ d. Load Data Indeks Tingkat Pengangguran Terbuka (TPT) dan Rata-rata Lama Sekola
 Cleaning mencakup:
 <br>
 - Menghapus baris header ganda
-<br>
 - Filter data yang relevan
-<br>
 - Menghapus titik pada angka seperti "1.234" menjadi "1234"
-<br>
 - Uppercase seluruh nama provinsi
-<br>
 - File output setelah cleaning disimpan dalam folder data clean:
 <br>
   |--- 📁 data clean
@@ -139,19 +138,26 @@ Data cleaning HIV, AIDS, Kemiskinan, Pengangguran, dan Rata-Rata Lama Sekolah di
 ##### **4.4 Exploratory Data Analysis (EDA)**
 a. Cek missing value
 <br>
+<br>
 b. Cek data duplicate
+<br>
 <br>
 c. Cek tipe data
 <br>
+<br>
 d. Cek statistik deskriptif
+<br>
 <br>
 e. Deteksi outlier
     Menggunakan boxplot untuk mengidentifikasi provinsi yang memiliki nilai ekstrem pada variabel sosial ekonomi dan jumlah kasus HIV/AIDS. Menyimpan boxplot di folder "visualisasi" nama file "boxplot_sosialekonomi_hivaids.png"
 <br>
+<br>
 f. Menghitung rasio kasus HIV & AIDS
     Membuat variabel baru berupa rasio Kasus HIV / Kasus AIDS untuk melihat proporsi penyebaran di setiap provinsi. Membuat "visualisasi" bar plot top 10 provinsi dengan rasio tertinggi ke terendah dan disimpan di folder visualisasi nama file "barplot_rasio_hivaids.png"
 <br>
+<br>
 g. Visualisasi heatmap korelasi
+<br>
     Menghasilkan heatmap antar variabel sosial-ekonomi untuk mengidentifikasi hubungan awal antara:
 - Jumlah penduduk miskin
 - Indeks TPT
@@ -160,6 +166,7 @@ g. Visualisasi heatmap korelasi
 - Jumlah Kasus AIDS
 <br>
     Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "heatmap_sosialekonomi_hivaids.png".
+<br>
 <br>
 h. Visualisasi scatter plot
 <br>
@@ -173,7 +180,9 @@ h. Visualisasi scatter plot
 <br>
   Menyimpan visualisasi heatmap di folder "visualisasi" dengan nama file "scatterplot_sosialekonomi_hivaids.png". 
 <br>
+<br>
 i. Peringkat faktor sosial ekonomi
+<br>
     Menyusun daftar provinsi berdasarkan: 
 - Provinsi dengan jumlah penduduk miskin terbanyak
 - Provinsi indeks TPT tertinggi
